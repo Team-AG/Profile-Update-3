@@ -1,0 +1,96 @@
+/* This will have about me css styling */
+
+.aboutMe {
+    font-family: 'Poppins', sans-serif;
+    color: #001f3fd3;
+}
+
+.aboutMe .title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.aboutMe .title::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 350px;
+    height: 3px;
+    background: #d4af37d3;
+    transform: translateX(-50%);
+}
+
+.aboutMe .title::after {
+    content: "Biography";
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    font-size: 20px;
+    color: #001f3f77;
+    padding: 5px;
+    background: white;
+    transform: translateX(-50%);
+}
+
+.aboutMe .aboutMe-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aboutMe .aboutMe-content .left {
+    width: 45%;
+}
+
+
+.aboutMe .aboutMe-content .left img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.aboutMe .aboutMe-content .right {
+    width: 55%;
+}
+
+.aboutMe .aboutMe-content .right .text {
+    color: #001f3fd3;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.aboutMe .aboutMe-content .right .text span {
+    color: #d4af37d3;
+}
+
+.aboutMe .aboutMe-content .right p {
+    text-align: justify;
+}
+
+
+.aboutMe .aboutMe-content .right a {
+    display: inline-block;
+    background: #001f3fd3;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 6px;
+    border-radius: 6px;
+    border: 3px solid #001f3f38;
+    transition: all 1s ease;
+}
+
+.aboutMe .aboutMe-content .right a:hover {
+    color: #d4af37d3;
+    background: #001f3fc4;
+}

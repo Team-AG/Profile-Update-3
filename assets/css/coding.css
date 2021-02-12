@@ -1,0 +1,138 @@
+/*       START OF CODING SECTION STYLING CSS STYLE SHEET     */
+
+
+
+.coding {
+    font-family: 'Poppins', sans-serif;
+}
+
+.coding .title {
+    color: #001f3fd3;
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.coding .title::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 350px;
+    height: 3px;
+    background: #d4af37d3;
+    transform: translateX(-50%);
+}
+
+.coding .title::after {
+    content: "Development";
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    font-size: 20px;
+    color: #001f3f77;
+    padding: 5px;
+    background: white;
+    transform: translateX(-50%);
+}
+
+.coding .coding-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.coding .coding-content .column {
+    width: calc(50% - 30px);
+}
+
+.coding .coding-content .left .text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.coding .coding-content .left p {
+    text-align: justify;
+}
+
+.coding .coding-content .left a {
+    display: inline-block;
+    background: #001f3fd3;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 3px solid #001f3f38;
+    transition: 0.6s ease;
+}
+
+.coding .coding-content .left a:hover {
+    color: #d4af37d3;
+    background: #001f3fc4;
+}
+
+.coding .coding-content .right .bars {
+    margin-bottom: 15px;
+}
+
+.coding .coding-content .right .info {
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.coding .coding-content .right span {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.coding .coding-content .right .line {
+    height: 5px;
+    width: 100%;
+    background: lightgray;
+    position: relative;
+}
+
+.coding .coding-content .right .line::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    left: 0;
+    top: 0;
+    background: #001f3fd3;
+}
+
+.coding .coding-content .right .html::before {
+
+    width: 88%;
+}
+
+.coding .coding-content .right .css::before {
+
+    width: 94%;
+}
+
+.coding .coding-content .right .JavaScript::before {
+
+    width: 75%;
+}
+
+.coding .coding-content .right .php::before {
+
+    width: 33%;
+}
+
+.coding .coding-content .right .mysql::before {
+
+    width: 71%;
+}

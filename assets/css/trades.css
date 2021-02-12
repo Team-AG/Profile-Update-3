@@ -1,0 +1,103 @@
+/* SERVICES CSS SECTION */
+
+
+.trades {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background: #001f3f;
+}
+
+
+.trades .title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.trades .title::before {
+    background: #001f3fd3;
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 350px;
+    height: 3px;
+    background: white;
+    transform: translateX(-50%);
+}
+
+.trades .title::after {
+    content: "Professional Development";
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    font-size: 20px;
+    color: #d4af37d3;
+    padding: 5px;
+    background: #001f3f;
+    transform: translateX(-50%);
+}
+
+.trades .trades-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trades .trades-content .card {
+    width: calc(33% - 20px);
+    background: #d4af37d3;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.trades .trades-content .card:hover {
+    background: rgba(255, 255, 255, 0.104);
+}
+
+.trades .trades-content .card .box {
+    transition: all 0.6s ease;
+}
+
+.trades .trades-content .card:hover .box {
+    transform: scale(1.05);
+}
+
+.trades .trades-content .card i {
+    font-size: 50px;
+    color: white;
+    transition: color 1.5s ease;
+}
+
+.trades .trades-content .card:hover i {
+    color: #d4af37d3;
+}
+
+.trades .trades-content .card .text {
+    font-size: 25px;
+    color: #001f3fd3;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+    transition: color 0.6s ease;
+}
+
+.trades .trades-content .card:hover .text {
+    color: white;
+}
+
+.trades .trades-content .card p {
+    color: white;
+    transition: color 0.6s ease;
+}
+
+.trades .trades-content .card:hover p {
+    color: #d4af37d3;
+}

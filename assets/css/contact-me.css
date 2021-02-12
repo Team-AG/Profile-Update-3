@@ -1,0 +1,151 @@
+/*            CONTACT SECTION FOR CSS STYLE                         */
+
+.contactME {
+    font-family: 'Poppins', sans-serif;
+    color: #001f3fd3;
+}
+
+.contactMe .title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.contactMe .title::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 350px;
+    height: 3px;
+    background: #d4af37d3;
+    transform: translateX(-50%);
+}
+
+.contactMe .title::after {
+    content: "Get in Touch";
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    font-size: 20px;
+    color: #001f3f77;
+    padding: 5px;
+    background: white;
+    transform: translateX(-50%);
+}
+
+.contactMe .contactMe-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contactMe .contactMe-content .column {
+    width: calc(50% - 30px);
+}
+
+.contactMe .contactMe-content .text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.contactMe .contactMe-content .left p {
+    text-align: justify;
+}
+
+.contactMe .contactMe-content .left .icons {
+    margin: 10px 0;
+}
+
+.contactMe .contactMe-content .row {
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+
+.contactMe .contactMe-content .row .info {
+    margin-left: 30px;
+}
+
+.contactMe .contactMe-content .row i {
+    font-size: 25px;
+    color: #d4af37d3;
+}
+
+.contactMe .contactMe-content .info .head {
+    font-weight: 500;
+}
+
+.contactMe .contactMe-content .info .sub-title {
+    color: #d4af37d3;
+}
+
+.contactMe .right form .fields {
+    display: flex;
+}
+
+.contactMe .right form .field,
+.contactMe .right form .fields .field {
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.contactMe .right form .textarea {
+    height: 80px;
+    width: 100%;
+}
+
+.contactMe .right form .name {
+    margin-right: 10px;
+}
+
+.contactMe .right form .email {
+    margin-left: 10px;
+}
+
+.contactMe .right form .field input,
+.contactMe .right form .textarea textarea {
+    height: 100%;
+    width: 100%;
+    border: 1px solid #d4af37d3;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contactMe .right form .textarea textarea {
+    padding-top: 10px;
+    resize: none;
+}
+
+.contactMe .right form .button {
+    height: 47px;
+    width: 170px;
+}
+
+.contactMe .right form .button button {
+    height: 100%;
+    width: 100%;
+    border: 2px solid #001f3fd3;
+    background: #001f3fd3;
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contactMe .right form .button button:hover {
+    color: #d4af37d3;
+    background: #001f3fc4;
+}

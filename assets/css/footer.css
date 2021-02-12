@@ -1,0 +1,16 @@
+/*                  THIS COVERS THE FOOTER SECTION WITHIN THE HTML FILE  STYLE SHEET                 */
+
+footer {
+    background: #001f3f;
+    padding: 20px 23px;
+    color: white;
+}
+
+footer span a {
+    color: #d4af37d3;
+    text-decoration: none;
+}
+
+footer span a:hover {
+    text-decoration: underline;
+}

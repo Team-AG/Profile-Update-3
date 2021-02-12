@@ -1,0 +1,92 @@
+/* Home page */
+
+
+
+.home {
+    display:relative;
+    position: inherit;
+    background: url("/assets/image/home-background.jpg ") no-repeat center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+    height: 100vh;
+    color: #001f3fd3;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: none;
+}
+
+
+.home .max-width {
+    margin: 12%;
+    margin-left: 10%;
+    padding-left: 3%;
+}
+
+.home .home-content .text-1 {
+    font-size: 220%;
+    margin-left: 32%;
+}
+
+.home .home-content .text-2 {
+    font-size: 630%;
+    font-weight: 600;
+    margin-left: 0%;
+    margin-top: 1%;
+}
+
+.home .home-content .text-3 {
+    font-size: 220%;
+    margin-left: 8%;
+    margin-top: 3%;
+}
+
+.home .home-content .text-3 span {
+    text-align: inherit;
+    font-size: 100%;
+    color: #d4af37d3;
+    font-weight: 500;
+    margin-left: 2%;
+
+}
+
+
+.home .home-content .text-4 {
+    display: none;
+    font-size: 220%;
+    margin-left: 8%;
+    margin-top: 3%;
+}
+
+.home .home-content .text-4 span {
+    display: none;
+    text-align: inherit;
+    font-size: 100%;
+    color: #d4af37d3;
+    font-weight: 500;
+    margin-left: 2%;
+
+}
+
+
+
+
+
+.home .home-content a {
+    display: inline-block;
+    background: #001f3fd3;
+    color: white;
+    font-size: 200%;
+    margin-top: 7%;
+    margin-left: 35%;
+    padding: 12px 12px 12px 12px;
+    border-radius: 12px;
+    border: 3px solid #001f3f38;
+    transition: 1s ease;
+}
+
+.home .home-content a:hover {
+    background: #001f3f79;
+    color: #d4af37d3;
+}
+
